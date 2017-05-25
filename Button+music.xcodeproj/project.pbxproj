@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E6C86E41EADDBC1009D2A3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6C86E31EADDBC1009D2A3E /* main.m */; };
+		2E6C86E71EADDBC1009D2A3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6C86E61EADDBC1009D2A3E /* AppDelegate.m */; };
+		2E6C86EA1EADDBC1009D2A3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6C86E91EADDBC1009D2A3E /* ViewController.m */; };
+		2E6C86ED1EADDBC1009D2A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6C86EB1EADDBC1009D2A3E /* Main.storyboard */; };
+		2E6C86EF1EADDBC1009D2A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6C86EE1EADDBC1009D2A3E /* Assets.xcassets */; };
+		2E6C86F21EADDBC1009D2A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6C86F01EADDBC1009D2A3E /* LaunchScreen.storyboard */; };
+		2E6C86FD1EADDBC1009D2A3E /* Button_musicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6C86FC1EADDBC1009D2A3E /* Button_musicTests.m */; };
+		2E6C87081EADDBC1009D2A3E /* Button_musicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6C87071EADDBC1009D2A3E /* Button_musicUITests.m */; };
+		2E6C87161EADDBD6009D2A3E /* 11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E6C87151EADDBD6009D2A3E /* 11.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E6C86F91EADDBC1009D2A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E6C86D71EADDBC1009D2A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E6C86DE1EADDBC1009D2A3E;
+			remoteInfo = "Button+music";
+		};
+		2E6C87041EADDBC1009D2A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E6C86D71EADDBC1009D2A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E6C86DE1EADDBC1009D2A3E;
+			remoteInfo = "Button+music";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E6C86DF1EADDBC1009D2A3E /* Button+music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Button+music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6C86E31EADDBC1009D2A3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E6C86E51EADDBC1009D2A3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E6C86E61EADDBC1009D2A3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E6C86E81EADDBC1009D2A3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E6C86E91EADDBC1009D2A3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E6C86EC1EADDBC1009D2A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E6C86EE1EADDBC1009D2A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E6C86F11EADDBC1009D2A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E6C86F31EADDBC1009D2A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6C86F81EADDBC1009D2A3E /* Button+musicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button+musicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6C86FC1EADDBC1009D2A3E /* Button_musicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_musicTests.m; sourceTree = "<group>"; };
+		2E6C86FE1EADDBC1009D2A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6C87031EADDBC1009D2A3E /* Button+musicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button+musicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6C87071EADDBC1009D2A3E /* Button_musicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_musicUITests.m; sourceTree = "<group>"; };
+		2E6C87091EADDBC1009D2A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6C87151EADDBD6009D2A3E /* 11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 11.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E6C86DC1EADDBC1009D2A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E6C86F51EADDBC1009D2A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E6C87001EADDBC1009D2A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E6C86D61EADDBC1009D2A3E = {
+			isa = PBXGroup;
+			children = (
+				2E6C86E11EADDBC1009D2A3E /* Button+music */,
+				2E6C86FB1EADDBC1009D2A3E /* Button+musicTests */,
+				2E6C87061EADDBC1009D2A3E /* Button+musicUITests */,
+				2E6C86E01EADDBC1009D2A3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E6C86E01EADDBC1009D2A3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E6C86DF1EADDBC1009D2A3E /* Button+music.app */,
+				2E6C86F81EADDBC1009D2A3E /* Button+musicTests.xctest */,
+				2E6C87031EADDBC1009D2A3E /* Button+musicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E6C86E11EADDBC1009D2A3E /* Button+music */ = {
+			isa = PBXGroup;
+			children = (
+				2E6C87151EADDBD6009D2A3E /* 11.mp3 */,
+				2E6C86E51EADDBC1009D2A3E /* AppDelegate.h */,
+				2E6C86E61EADDBC1009D2A3E /* AppDelegate.m */,
+				2E6C86E81EADDBC1009D2A3E /* ViewController.h */,
+				2E6C86E91EADDBC1009D2A3E /* ViewController.m */,
+				2E6C86EB1EADDBC1009D2A3E /* Main.storyboard */,
+				2E6C86EE1EADDBC1009D2A3E /* Assets.xcassets */,
+				2E6C86F01EADDBC1009D2A3E /* LaunchScreen.storyboard */,
+				2E6C86F31EADDBC1009D2A3E /* Info.plist */,
+				2E6C86E21EADDBC1009D2A3E /* Supporting Files */,
+			);
+			path = "Button+music";
+			sourceTree = "<group>";
+		};
+		2E6C86E21EADDBC1009D2A3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E6C86E31EADDBC1009D2A3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E6C86FB1EADDBC1009D2A3E /* Button+musicTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E6C86FC1EADDBC1009D2A3E /* Button_musicTests.m */,
+				2E6C86FE1EADDBC1009D2A3E /* Info.plist */,
+			);
+			path = "Button+musicTests";
+			sourceTree = "<group>";
+		};
+		2E6C87061EADDBC1009D2A3E /* Button+musicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E6C87071EADDBC1009D2A3E /* Button_musicUITests.m */,
+				2E6C87091EADDBC1009D2A3E /* Info.plist */,
+			);
+			path = "Button+musicUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E6C86DE1EADDBC1009D2A3E /* Button+music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E6C870C1EADDBC1009D2A3E /* Build configuration list for PBXNativeTarget "Button+music" */;
+			buildPhases = (
+				2E6C86DB1EADDBC1009D2A3E /* Sources */,
+				2E6C86DC1EADDBC1009D2A3E /* Frameworks */,
+				2E6C86DD1EADDBC1009D2A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Button+music";
+			productName = "Button+music";
+			productReference = 2E6C86DF1EADDBC1009D2A3E /* Button+music.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E6C86F71EADDBC1009D2A3E /* Button+musicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E6C870F1EADDBC1009D2A3E /* Build configuration list for PBXNativeTarget "Button+musicTests" */;
+			buildPhases = (
+				2E6C86F41EADDBC1009D2A3E /* Sources */,
+				2E6C86F51EADDBC1009D2A3E /* Frameworks */,
+				2E6C86F61EADDBC1009D2A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E6C86FA1EADDBC1009D2A3E /* PBXTargetDependency */,
+			);
+			name = "Button+musicTests";
+			productName = "Button+musicTests";
+			productReference = 2E6C86F81EADDBC1009D2A3E /* Button+musicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E6C87021EADDBC1009D2A3E /* Button+musicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E6C87121EADDBC1009D2A3E /* Build configuration list for PBXNativeTarget "Button+musicUITests" */;
+			buildPhases = (
+				2E6C86FF1EADDBC1009D2A3E /* Sources */,
+				2E6C87001EADDBC1009D2A3E /* Frameworks */,
+				2E6C87011EADDBC1009D2A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E6C87051EADDBC1009D2A3E /* PBXTargetDependency */,
+			);
+			name = "Button+musicUITests";
+			productName = "Button+musicUITests";
+			productReference = 2E6C87031EADDBC1009D2A3E /* Button+musicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E6C86D71EADDBC1009D2A3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lujh;
+				TargetAttributes = {
+					2E6C86DE1EADDBC1009D2A3E = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					2E6C86F71EADDBC1009D2A3E = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E6C86DE1EADDBC1009D2A3E;
+					};
+					2E6C87021EADDBC1009D2A3E = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E6C86DE1EADDBC1009D2A3E;
+					};
+				};
+			};
+			buildConfigurationList = 2E6C86DA1EADDBC1009D2A3E /* Build configuration list for PBXProject "Button+music" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E6C86D61EADDBC1009D2A3E;
+			productRefGroup = 2E6C86E01EADDBC1009D2A3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E6C86DE1EADDBC1009D2A3E /* Button+music */,
+				2E6C86F71EADDBC1009D2A3E /* Button+musicTests */,
+				2E6C87021EADDBC1009D2A3E /* Button+musicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E6C86DD1EADDBC1009D2A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6C86F21EADDBC1009D2A3E /* LaunchScreen.storyboard in Resources */,
+				2E6C86EF1EADDBC1009D2A3E /* Assets.xcassets in Resources */,
+				2E6C87161EADDBD6009D2A3E /* 11.mp3 in Resources */,
+				2E6C86ED1EADDBC1009D2A3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E6C86F61EADDBC1009D2A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E6C87011EADDBC1009D2A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E6C86DB1EADDBC1009D2A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6C86EA1EADDBC1009D2A3E /* ViewController.m in Sources */,
+				2E6C86E71EADDBC1009D2A3E /* AppDelegate.m in Sources */,
+				2E6C86E41EADDBC1009D2A3E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E6C86F41EADDBC1009D2A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6C86FD1EADDBC1009D2A3E /* Button_musicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E6C86FF1EADDBC1009D2A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6C87081EADDBC1009D2A3E /* Button_musicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E6C86FA1EADDBC1009D2A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E6C86DE1EADDBC1009D2A3E /* Button+music */;
+			targetProxy = 2E6C86F91EADDBC1009D2A3E /* PBXContainerItemProxy */;
+		};
+		2E6C87051EADDBC1009D2A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E6C86DE1EADDBC1009D2A3E /* Button+music */;
+			targetProxy = 2E6C87041EADDBC1009D2A3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E6C86EB1EADDBC1009D2A3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E6C86EC1EADDBC1009D2A3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E6C86F01EADDBC1009D2A3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E6C86F11EADDBC1009D2A3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E6C870A1EADDBC1009D2A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E6C870B1EADDBC1009D2A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E6C870D1EADDBC1009D2A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Button+music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lujh.cn.Button-music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E6C870E1EADDBC1009D2A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Button+music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lujh.cn.Button-music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E6C87101EADDBC1009D2A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Button+musicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lujh.cn.Button-musicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Button+music.app/Button+music";
+			};
+			name = Debug;
+		};
+		2E6C87111EADDBC1009D2A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Button+musicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lujh.cn.Button-musicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Button+music.app/Button+music";
+			};
+			name = Release;
+		};
+		2E6C87131EADDBC1009D2A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Button+musicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lujh.cn.Button-musicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Button+music";
+			};
+			name = Debug;
+		};
+		2E6C87141EADDBC1009D2A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Button+musicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lujh.cn.Button-musicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Button+music";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E6C86DA1EADDBC1009D2A3E /* Build configuration list for PBXProject "Button+music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6C870A1EADDBC1009D2A3E /* Debug */,
+				2E6C870B1EADDBC1009D2A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E6C870C1EADDBC1009D2A3E /* Build configuration list for PBXNativeTarget "Button+music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6C870D1EADDBC1009D2A3E /* Debug */,
+				2E6C870E1EADDBC1009D2A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E6C870F1EADDBC1009D2A3E /* Build configuration list for PBXNativeTarget "Button+musicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6C87101EADDBC1009D2A3E /* Debug */,
+				2E6C87111EADDBC1009D2A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E6C87121EADDBC1009D2A3E /* Build configuration list for PBXNativeTarget "Button+musicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6C87131EADDBC1009D2A3E /* Debug */,
+				2E6C87141EADDBC1009D2A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E6C86D71EADDBC1009D2A3E /* Project object */;
+}
